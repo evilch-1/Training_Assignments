@@ -1,0 +1,22 @@
+/* index_properties.css */
+/* Author: Edgar Vilchis */
+/* First Assignment */
+/* Exploring HTML and CSS */
+
+p {
+    color: blue;
+}
+
+#intro {
+    color: green;
+}
+
+.intro1 {
+    color: greenyellow;
+    background-color: indianred;
+}
+
+#intro .intro1 em {
+    color: khaki;
+    background-color: cyan;
+}
