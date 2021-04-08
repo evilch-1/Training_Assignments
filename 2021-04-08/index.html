@@ -1,0 +1,67 @@
+<!-- index.html -->
+<!-- Author: Edgar Vilchis-->
+<!-- Exploring HTML and React -->
+
+<!-- Date of creation: April 7th, 2021 -->
+<!-- Last modified: April 8th, 2021 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="app.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fomantic-ui/2.8.7/semantic.min.css" integrity="sha512-g/MzOGVPy3OQ4ej1U+qe4D/xhLwUn5l5xL0Fa7gdC258ZWVJQGwsbIR47SWMpRxSPjD0tfu/xkilTy+Lhrl3xg==" crossorigin="anonymous" />
+    <title>React</title>
+</head>
+<body>
+    <div id = "root"></div>
+
+    <!-- <script type = "text/javascript">
+        const rootElement = document.getElementById('root');
+        
+        const newElement = document.createElement('div');
+        newElement.textContent = 'Hello World!';
+        newElement.classList.add('Box');
+        
+        rootElement.appendChild(newElement);
+    </script> -->
+    
+    <!-- <script src="https://unpkg.com/react@17.0.2/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js"></script>
+
+    <script type="text/javascript">
+        const rootElement = document.getElementById('root');
+
+        const newElement = React.createElement( 'div', 
+            {
+                children: 'Hello World from React!', // missing object React.example
+                className: 'Box'
+            });
+
+        ReactDOM.render(newElement, rootElement);
+
+        //JSX
+    </script> -->
+
+    <script src="https://unpkg.com/react@17.0.2/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/babel" src="components.js">
+        // //const rootElement = document.getElementById('root');
+
+        // const newElement = (
+        //     <div className = "Box">
+        //         <div>
+        //             <h3> Hello World from React!!!</h3>
+        //             <p> This is great! </p>
+        //         </div>
+        //     </div>
+        // );
+
+        // ReactDOM.render(newElement, document.getElementById('root'));
+    </script>
+</body>
+</html>
