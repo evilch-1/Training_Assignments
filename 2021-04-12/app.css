@@ -1,0 +1,31 @@
+/* 
+app.css
+Author: Edgar Vilchis
+
+Date of creation: April 7th, 2021
+Last modified: April 12th, 2021
+
+*/
+.Box {
+    margin: 10 px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 2px #ccc;
+    width: 300px;
+    padding: 40px;
+}
+
+.EditBoton {
+    background-color: aqua;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+}
